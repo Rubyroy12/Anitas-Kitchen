@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+}
+.landing{
+    width: 100%;
+    background-image: url("./assets/backgrounds/landing.jpg");
+    height: 500px;
+    display: flex;
+}
+#ptop{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
+strong{
+    font-weight: bold;
+}

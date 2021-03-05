@@ -4,6 +4,7 @@
 .landing{
     width: 100%;
     background-image: url("./assets/backgrounds/landing.jpg");
+    background-size: cover;
     height: 400px;
     display: flex;
 }
@@ -25,18 +26,23 @@ strong{
     float: left;
     background-color: rgb(250, 245, 244);
     color: black;
-    text-align: center;
+    
 
 }
 #party{
     width: 150px;
     height: 60px;
     float: left;
-    background-color: rgb(243, 10, 10);
+    background-color: rgb(255, 51, 0);
     color: white;
     text-align: center;
-    float: left;
+    /* float: left; */
     display: flex;
+
+}
+#mid{
+   display: flex;
+   float: left;
 }
 #breakfast{
     width: 150px;
@@ -44,6 +50,9 @@ strong{
     text-align: center;
     background-image: url("./assets/foodtop/breakfast.jpg");
     display: flex;
+    position: relative;
+    background-size: cover;
+
 }
 #lunch{
     width:150px ;
@@ -51,6 +60,8 @@ strong{
     text-align: center;
     background-image: url("./assets/foodtop/lunch.jpg");
     display: flex;
+    background-size: cover;
+    align-items: center;
 }
 #dinner{
     width: 150px;
@@ -59,4 +70,5 @@ strong{
     background-image:url("./assets/foodtop/dinner.jpg");
     display: flex;
     flex: auto;
+    background-size: cover;
 }

@@ -174,8 +174,43 @@ nav>ul>li {
 }
 
 /* subscribe section styles */
-#contacts {
+.contacts {
     background-image: url("./assets/backgrounds/subscribe.jpg");
     height: 200px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+#p127{
+    color: white;
+    font-weight:bold;
+    font-size:30px ;
+}
+#email{
+    background-color: rgb(161, 159, 159);
+    opacity:0.4;
+    width: 200px;
+    text-align:left;
+    height: 30px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 0%;
+
+}
+#subscribe{
+    background-color: #F15A29;
+    color: white;
+     width: 100px;
+    text-align:center;
+    height: 30px;
+    margin-right: 0%;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: content;
 }

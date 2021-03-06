@@ -46,7 +46,10 @@ strong {
     display: flex;
 
 }
-
+#mid{
+    display: flex;
+    justify-content: space-around;
+}
 #breakfast {
     width: 150px;
     height: 80px;
@@ -80,10 +83,16 @@ strong {
 
 #mid {
     display: inline-block;
-    float: left;
+    /* float: left; */
     flex-direction: row;
 }
-
+.fastfood {
+    background-color: white;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* clear:both; */
+}
 #fastfood {
     display: flex;
     float: left;
@@ -91,13 +100,6 @@ strong {
     flex-direction: column;
     width: auto;
 
-}
-
-.fastfood {
-    background-color: white;
-    height: 400px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 #drinks {
@@ -125,6 +127,7 @@ strong {
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: space-between;
 
 }
 
@@ -133,19 +136,27 @@ nav>ul>li {
     text-decoration: none;
     color: white;
     background-color: darkgrey;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 50px;
-    width: 100px;
+    width: 220px;   
+    flex-grow: 3;
     align-items: center;
+    margin-left: 0%;
 }
-nav{
+
+nav>li{
     display: flex;
     margin-left: 0;
-    width: ;
-
 }
-#gallery{
-    height: 300p;
+#fast{
+    background-color: white;
+    color:red 
+}
+#captions{
+    display: flex;
+    color: red;
+    justify-content:center;
+
 }
 
 /* Customers secton css styles */

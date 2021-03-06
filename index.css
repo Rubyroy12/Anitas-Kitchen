@@ -40,10 +40,6 @@ strong{
     display: flex;
 
 }
-#mid{
-   display: flex;
-   float: left;
-}
 #breakfast{
     width: 150px;
     height: 80px;
@@ -72,6 +68,11 @@ strong{
     flex: auto;
     background-size: cover;
 }
+#mid{
+    display: inline-block;
+    float: left;
+    flex-direction: row;
+}
 #footer{
     background-color:rgb(240, 76, 11);
     align-items: center;
@@ -79,3 +80,22 @@ strong{
     justify-content: center;
     flex-direction: column;
 }
+
+#fastfood{
+    display: flex;
+    float: left;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+   
+}
+.fastfood{
+    background-color: white;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#drinks{
+    
+    float: right;
+  }

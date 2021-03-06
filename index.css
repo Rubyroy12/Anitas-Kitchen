@@ -84,14 +84,6 @@ strong {
     flex-direction: row;
 }
 
-#footer {
-    background-color: rgb(240, 76, 11);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 #fastfood {
     display: flex;
     float: left;
@@ -191,7 +183,7 @@ nav>ul>li {
 #email{
     background-color: rgb(161, 159, 159);
     opacity:0.4;
-    width: 200px;
+    width: 400px;
     text-align:left;
     height: 30px;
     color: white;
@@ -213,4 +205,19 @@ nav>ul>li {
     flex-direction: row;
     justify-content: space-around;
     flex: content;
+}
+
+/* Footer section style */
+#footer {
+    background-color: rgb(240, 76, 11);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+}
+#footermenu {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
 }

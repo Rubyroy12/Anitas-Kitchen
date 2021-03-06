@@ -162,7 +162,16 @@ nav>ul>li {
     /* border: 2px solid grey; */
 }
 
+#menu {
+    background-color: white;
+    box-sizing: content-box;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+   margin: 20px 60px 20px 600px;
 
+}
 
 /* subscribe section styles */
 #contacts {

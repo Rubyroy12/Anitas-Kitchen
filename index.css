@@ -96,6 +96,14 @@ strong{
     margin-right: 100px;
 }
 #drinks{
-    
+    display: flex;
     float: right;
+    height: 30%;
   }
+
+.drinks{
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 400px;    
+}

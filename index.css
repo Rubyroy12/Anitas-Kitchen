@@ -89,18 +89,30 @@ strong {
 /* fastfood section css styles */
 
 .fastfood {
-    background-color: white;
     height: 400px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 100px 200px 100px 200px;
+    border: 2px solid white;
+    display: flex;
 }
 #fastfood {
     display: flex;
     float: left;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: column;
-    width: auto;
+    margin-top: 10%;
+    border: 10px solid white;
+    box-shadow: 1px 1px 2px 2px grey;
 
+}
+#delicious{
+    text-align:left;
+    display:flexbox;
+    margin-top: 10%;
+    margin: 100px 20px 20px 20px;
+    
+}
+#delicious>h2,h3{
+    color:#F15A29;
 }
 
 #drinks {

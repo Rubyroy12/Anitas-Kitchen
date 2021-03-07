@@ -31,6 +31,7 @@ strong {
     float: left;
     background-color: rgb(250, 245, 244);
     color: black;
+    clear: both;
 
 
 }
@@ -49,6 +50,7 @@ strong {
 #mid{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 #breakfast {
     width: 150px;

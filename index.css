@@ -207,7 +207,8 @@ nav>ul>li {
     color: white;
     background-color: darkgrey;
     height: 50px;
-    width: 220px;   
+    width: 220px;  
+    text-align: center; 
     /* align-items: center; */
     margin-left: 0%;
     font-size: larger;

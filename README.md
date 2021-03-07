@@ -11,7 +11,7 @@ git clone https://github.com/Rubyroy12/Anitas-Kitchen.git
 1. HTML
 2. CSS
 ## LIVE Site
-View []
+View [live](https://rubyroy12.github.io/Anitas-Kitchen/)
 ## LICENSE
 COPYRIGHT 2021 Ibrahim Kiprotich
 This projects is under the License of MIT.

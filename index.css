@@ -23,77 +23,76 @@ strong {
     font-weight: bold;
 }
 
+/* Happy hour party time section breakfast lunch dinner */
+
 #happy {
-    width: 150px;
-    height: 60px;
+    width: 300px;
+    height: 100px;
     display: flex;
     justify-content: center;
     float: left;
     background-color: rgb(250, 245, 244);
     color: black;
-    clear: both;
-
-
+   
 }
 
 #party {
-    width: 150px;
-    height: 60px;
+    width: 300px;
+    height: 100px;
     float: left;
     background-color: rgb(255, 51, 0);
     color: white;
     text-align: center;
-    /* float: left; */
     display: flex;
 
 }
-#mid{
+#happyparty{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    float: left;
 }
+
 #breakfast {
-    width: 150px;
-    height: 80px;
+    width: 350px;
+    height: 200px;
     text-align: center;
     background-image: url("./assets/foodtop/breakfast.jpg");
-    display: flex;
-    position: relative;
     background-size: cover;
+    color: white;
 
 }
-
 #lunch {
-    width: 150px;
-    height: 60px;
+    width: 350px;
+    height: 200px;
     text-align: center;
     background-image: url("./assets/foodtop/lunch.jpg");
     display: flex;
     background-size: cover;
-    align-items: center;
+    color: white;
 }
-
 #dinner {
-    width: 150px;
-    height: 60px;
+    width: 350px;
+    height: 200px;
     text-align: center;
     background-image: url("./assets/foodtop/dinner.jpg");
     display: flex;
-    flex: auto;
     background-size: cover;
+    color: white;
+}
+#foodtop{
+    display: flex;
+    float: right;
+    justify-content: flex-end; 
+
 }
 
-#mid {
-    display: inline-block;
-    /* float: left; */
-    flex-direction: row;
-}
+/* fastfood section css styles */
+
 .fastfood {
     background-color: white;
     height: 400px;
     margin-left: 100px;
     margin-right: 100px;
-    /* clear:both; */
 }
 #fastfood {
     display: flex;

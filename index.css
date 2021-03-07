@@ -109,10 +109,18 @@ strong {
     display:flexbox;
     margin-top: 10%;
     margin: 100px 20px 20px 20px;
+    line-height: 28px;
     
 }
 #delicious>h2,h3{
     color:#F15A29;
+}
+#viewgallery1{
+    border: 2px solid #F15A29 ;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    color: #F15A29 ;
 }
 
 #drinks {

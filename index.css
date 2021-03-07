@@ -34,7 +34,11 @@ strong {
     float: left;
     background-color: white;
     color: black;
+    justify-content: center;
+    flex: content;
    
+
+  
 }
 
 #party {
@@ -45,6 +49,8 @@ strong {
     color: white;
     text-align: center;
     display: flex;
+    justify-content: center;
+   
 
 }
 #happyparty{
@@ -52,6 +58,8 @@ strong {
     flex-direction: column;
     float: left;
     font-size: 40px;
+    text-align: center;
+    
 
 }
 
@@ -61,6 +69,8 @@ strong {
     background-image: url("./assets/foodtop/breakfast.jpg");
     background-size: cover;
     color: white;
+    justify-content: center;
+    
 
 }
 #lunch {
@@ -71,6 +81,8 @@ strong {
     display: flex;
     background-size: cover;
     color: white;
+    justify-content: center;
+   
 }
 #dinner {
     width: 350px;
@@ -80,13 +92,17 @@ strong {
     display: flex;
     background-size: cover;
     color: white;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+
 }
 #foodtop{
     display: flex;
     float: right;
     justify-content: flex-end; 
     font-size: 40px;
-    /* position: relative; */
+    text-align: center;
+
 
 }
 
@@ -192,14 +208,16 @@ nav>ul>li {
     background-color: darkgrey;
     height: 50px;
     width: 220px;   
-    flex-grow: 3;
-    align-items: center;
+    /* align-items: center; */
     margin-left: 0%;
+    font-size: larger;
 }
 
 nav>li{
     display: flex;
-    margin-left: 0;
+    margin-left: 25%;
+    
+
 }
 #fast{
     background-color: white;

@@ -31,7 +31,7 @@ strong {
     display: flex;
     justify-content: center;
     float: left;
-    background-color: rgb(250, 245, 244);
+    background-color: white;
     color: black;
    
 }
@@ -40,7 +40,7 @@ strong {
     width: 300px;
     height: 100px;
     float: left;
-    background-color: rgb(255, 51, 0);
+    background-color:#F15A29;
     color: white;
     text-align: center;
     display: flex;
@@ -104,7 +104,7 @@ strong {
     box-shadow: 1px 1px 2px 2px grey;
 
 }
-#delicious{
+#deliciousfood{
     text-align:left;
     display:flexbox;
     margin-top: 10%;
@@ -112,7 +112,7 @@ strong {
     line-height: 28px;
     
 }
-#delicious>h2,h3{
+#deliciousfood>h2,h3{
     color:#F15A29;
 }
 #viewgallery1{
@@ -123,18 +123,47 @@ strong {
     color: #F15A29 ;
 }
 
-#drinks {
-    display: flex;
-    float: right;
-    height: 30%;
-}
+/* Drinks section css styles starts here */
 
 .drinks {
-    background-color: aliceblue;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 400px;
+    height: 450px;
+    margin: 100px 100px 100px 100px;    
+    display: flex;
+
 }
+#drinksimages{
+    display: flex;
+    float: right;
+    border: 10px solid white;
+    box-shadow: 1px 1px 2px 2px grey;
+    margin-top:0;
+    justify-content: space-around;
+    margin-right: 0px;
+}
+/* #deliciousdrinks{
+    display: flexbox;
+    margin: 60px 0px 20px 0px;
+    text-align: right;
+    line-height: 25px;
+}
+#drinksp{
+    margin-right: 600px;
+    display: flexbox;
+    flex-direction: column;
+    text-align: right;
+    line-height: 30px;
+}
+#delicious>h3,h4{
+    color: #F15A29;
+}
+#viewgallery2{
+    display: flex;
+    border: 2px solid #F15A29 ;
+    width: 200px;
+    text-align: center;
+    margin-right:0px;
+    color: #F15A29; 
+} */
 
 /* GALLERY */
 
@@ -157,7 +186,6 @@ nav>ul>li {
     text-decoration: none;
     color: white;
     background-color: darkgrey;
-    /* justify-content: space-between; */
     height: 50px;
     width: 220px;   
     flex-grow: 3;
